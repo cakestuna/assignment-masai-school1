@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="text" id="input1" placeholder="enter 1st number">
+    <input type="text"  id="input2" placeholder="enter2nd number">
+    <br>
+    <button onclick="add()">Add</button>
+    <button onclick="subtract()">Subtract</button>
+    <button onclick="multiply()">Multiply</button>
+    <button onclick="divide()">Divide</button>
+    
+</body>
+</html>
+<SCript>
+    let input1 = document.getElementById("input1")
+    let input2 = document.getElementById("input2")
+function add(){
+alert(Number(input1.value) + Number(input2.value))
+}
+
+function subtract(){
+alert(Number(input1.value) - Number(input2.value))
+}
+
+function multiply(){
+alert(Number(input1.value) * Number(input2.value))
+}
+
+function divide(){
+alert(Number(input1.value) / Number(input2.value))
+}
+</SCript>
